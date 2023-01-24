@@ -1,11 +1,12 @@
 public class CheckTest {
+
+    int x;
+    String futureProblem;
+
     public CheckTest(int x, String futureProblem) {
         this.x = x;
         this.futureProblem = futureProblem;
     }
-
-    int x;
-    String futureProblem;
 
     public int getX() {
         return x;
